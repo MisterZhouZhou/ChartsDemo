@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6FC138B1C5B580400B92822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC138A1C5B580400B92822 /* main.m */; };
+		A6FC13911C5B580400B92822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13901C5B580400B92822 /* ViewController.m */; };
+		A6FC13941C5B580400B92822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13921C5B580400B92822 /* Main.storyboard */; };
+		A6FC13961C5B580400B92822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13951C5B580400B92822 /* Assets.xcassets */; };
+		A6FC13991C5B580400B92822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13971C5B580400B92822 /* LaunchScreen.storyboard */; };
+		A6FC13A41C5B580400B92822 /* ImportChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13A31C5B580400B92822 /* ImportChartDemoTests.m */; };
+		A6FC13AF1C5B580400B92822 /* ImportChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13AE1C5B580400B92822 /* ImportChartDemoUITests.m */; };
+		A6FC13BF1C5B585200B92822 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13BE1C5B585200B92822 /* test.swift */; };
+		A6FC140E1C5B59C400B92822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13CD1C5B59C400B92822 /* AppDelegate.m */; };
+		A6FC140F1C5B59C400B92822 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13CF1C5B59C400B92822 /* BalloonMarker.swift */; };
+		A6FC14101C5B59C400B92822 /* MyCustomXValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13D11C5B59C400B92822 /* MyCustomXValueFormatter.m */; };
+		A6FC14111C5B59C400B92822 /* DemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13D31C5B59C400B92822 /* DemoBaseViewController.m */; };
+		A6FC14121C5B59C400B92822 /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13D51C5B59C400B92822 /* DemoListViewController.m */; };
+		A6FC14131C5B59C400B92822 /* DemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13D61C5B59C400B92822 /* DemoListViewController.xib */; };
+		A6FC14141C5B59C400B92822 /* AnotherBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13D91C5B59C400B92822 /* AnotherBarChartViewController.m */; };
+		A6FC14151C5B59C400B92822 /* AnotherBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13DA1C5B59C400B92822 /* AnotherBarChartViewController.xib */; };
+		A6FC14161C5B59C400B92822 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13DC1C5B59C400B92822 /* BarChartViewController.m */; };
+		A6FC14171C5B59C400B92822 /* BarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13DD1C5B59C400B92822 /* BarChartViewController.xib */; };
+		A6FC14181C5B59C400B92822 /* BubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13DF1C5B59C400B92822 /* BubbleChartViewController.m */; };
+		A6FC14191C5B59C400B92822 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13E01C5B59C400B92822 /* BubbleChartViewController.xib */; };
+		A6FC141A1C5B59C400B92822 /* CandleStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13E21C5B59C400B92822 /* CandleStickChartViewController.m */; };
+		A6FC141B1C5B59C400B92822 /* CandleStickChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13E31C5B59C400B92822 /* CandleStickChartViewController.xib */; };
+		A6FC141C1C5B59C400B92822 /* ColoredLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13E51C5B59C400B92822 /* ColoredLineChartViewController.m */; };
+		A6FC141D1C5B59C400B92822 /* ColoredLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13E61C5B59C400B92822 /* ColoredLineChartViewController.xib */; };
+		A6FC141E1C5B59C400B92822 /* CombinedChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13E81C5B59C400B92822 /* CombinedChartViewController.m */; };
+		A6FC141F1C5B59C400B92822 /* CombinedChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13E91C5B59C400B92822 /* CombinedChartViewController.xib */; };
+		A6FC14201C5B59C400B92822 /* CubicLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13EB1C5B59C400B92822 /* CubicLineChartViewController.m */; };
+		A6FC14211C5B59C400B92822 /* CubicLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13EC1C5B59C400B92822 /* CubicLineChartViewController.xib */; };
+		A6FC14221C5B59C400B92822 /* HorizontalBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13EE1C5B59C400B92822 /* HorizontalBarChartViewController.m */; };
+		A6FC14231C5B59C400B92822 /* HorizontalBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13EF1C5B59C400B92822 /* HorizontalBarChartViewController.xib */; };
+		A6FC14241C5B59C400B92822 /* LineChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13F11C5B59C400B92822 /* LineChart1ViewController.m */; };
+		A6FC14251C5B59C400B92822 /* LineChart1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13F21C5B59C400B92822 /* LineChart1ViewController.xib */; };
+		A6FC14261C5B59C400B92822 /* LineChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13F41C5B59C400B92822 /* LineChart2ViewController.m */; };
+		A6FC14271C5B59C400B92822 /* LineChart2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13F51C5B59C400B92822 /* LineChart2ViewController.xib */; };
+		A6FC14281C5B59C400B92822 /* MultipleBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13F71C5B59C400B92822 /* MultipleBarChartViewController.m */; };
+		A6FC14291C5B59C400B92822 /* MultipleBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13F81C5B59C400B92822 /* MultipleBarChartViewController.xib */; };
+		A6FC142A1C5B59C400B92822 /* MultipleLinesChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13FA1C5B59C400B92822 /* MultipleLinesChartViewController.m */; };
+		A6FC142B1C5B59C400B92822 /* MultipleLinesChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13FB1C5B59C400B92822 /* MultipleLinesChartViewController.xib */; };
+		A6FC142C1C5B59C400B92822 /* NegativeStackedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC13FD1C5B59C400B92822 /* NegativeStackedBarChartViewController.m */; };
+		A6FC142D1C5B59C400B92822 /* NegativeStackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC13FE1C5B59C400B92822 /* NegativeStackedBarChartViewController.xib */; };
+		A6FC142E1C5B59C400B92822 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC14001C5B59C400B92822 /* PieChartViewController.m */; };
+		A6FC142F1C5B59C400B92822 /* PieChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC14011C5B59C400B92822 /* PieChartViewController.xib */; };
+		A6FC14301C5B59C400B92822 /* RadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC14031C5B59C400B92822 /* RadarChartViewController.m */; };
+		A6FC14311C5B59C400B92822 /* RadarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC14041C5B59C400B92822 /* RadarChartViewController.xib */; };
+		A6FC14321C5B59C400B92822 /* ScatterChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC14061C5B59C400B92822 /* ScatterChartViewController.m */; };
+		A6FC14331C5B59C400B92822 /* ScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC14071C5B59C400B92822 /* ScatterChartViewController.xib */; };
+		A6FC14341C5B59C400B92822 /* SinusBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC14091C5B59C400B92822 /* SinusBarChartViewController.m */; };
+		A6FC14351C5B59C400B92822 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC140A1C5B59C400B92822 /* SinusBarChartViewController.xib */; };
+		A6FC14361C5B59C400B92822 /* StackedBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC140C1C5B59C400B92822 /* StackedBarChartViewController.m */; };
+		A6FC14371C5B59C400B92822 /* StackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FC140D1C5B59C400B92822 /* StackedBarChartViewController.xib */; };
+		A6FC143A1C5B5A6E00B92822 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FC13C71C5B597600B92822 /* Charts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6FC13A01C5B580400B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC137E1C5B580400B92822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FC13851C5B580400B92822;
+			remoteInfo = ImportChartDemo;
+		};
+		A6FC13AB1C5B580400B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC137E1C5B580400B92822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FC13851C5B580400B92822;
+			remoteInfo = ImportChartDemo;
+		};
+		A6FC13C61C5B597600B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC13C01C5B597600B92822 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		A6FC13C81C5B597600B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC13C01C5B597600B92822 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		A6FC13CA1C5B597600B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC13C01C5B597600B92822 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		A6FC14381C5B5A6500B92822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FC13C01C5B597600B92822 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6FC13861C5B580400B92822 /* ImportChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FC138A1C5B580400B92822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6FC138F1C5B580400B92822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6FC13901C5B580400B92822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6FC13931C5B580400B92822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FC13951C5B580400B92822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FC13981C5B580400B92822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6FC139A1C5B580400B92822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FC139F1C5B580400B92822 /* ImportChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImportChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FC13A31C5B580400B92822 /* ImportChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportChartDemoTests.m; sourceTree = "<group>"; };
+		A6FC13A51C5B580400B92822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FC13AA1C5B580400B92822 /* ImportChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImportChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FC13AE1C5B580400B92822 /* ImportChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportChartDemoUITests.m; sourceTree = "<group>"; };
+		A6FC13B01C5B580400B92822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FC13BD1C5B585100B92822 /* ImportChartDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportChartDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6FC13BE1C5B585200B92822 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A6FC13C01C5B597600B92822 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = "<group>"; };
+		A6FC13CC1C5B59C400B92822 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6FC13CD1C5B59C400B92822 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6FC13CF1C5B59C400B92822 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		A6FC13D01C5B59C400B92822 /* MyCustomXValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomXValueFormatter.h; sourceTree = "<group>"; };
+		A6FC13D11C5B59C400B92822 /* MyCustomXValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomXValueFormatter.m; sourceTree = "<group>"; };
+		A6FC13D21C5B59C400B92822 /* DemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBaseViewController.h; sourceTree = "<group>"; };
+		A6FC13D31C5B59C400B92822 /* DemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBaseViewController.m; sourceTree = "<group>"; };
+		A6FC13D41C5B59C400B92822 /* DemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
+		A6FC13D51C5B59C400B92822 /* DemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
+		A6FC13D61C5B59C400B92822 /* DemoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoListViewController.xib; sourceTree = "<group>"; };
+		A6FC13D81C5B59C400B92822 /* AnotherBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC13D91C5B59C400B92822 /* AnotherBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC13DA1C5B59C400B92822 /* AnotherBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherBarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13DB1C5B59C400B92822 /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		A6FC13DC1C5B59C400B92822 /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		A6FC13DD1C5B59C400B92822 /* BarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13DE1C5B59C400B92822 /* BubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleChartViewController.h; sourceTree = "<group>"; };
+		A6FC13DF1C5B59C400B92822 /* BubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleChartViewController.m; sourceTree = "<group>"; };
+		A6FC13E01C5B59C400B92822 /* BubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13E11C5B59C400B92822 /* CandleStickChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleStickChartViewController.h; sourceTree = "<group>"; };
+		A6FC13E21C5B59C400B92822 /* CandleStickChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleStickChartViewController.m; sourceTree = "<group>"; };
+		A6FC13E31C5B59C400B92822 /* CandleStickChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandleStickChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13E41C5B59C400B92822 /* ColoredLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredLineChartViewController.h; sourceTree = "<group>"; };
+		A6FC13E51C5B59C400B92822 /* ColoredLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredLineChartViewController.m; sourceTree = "<group>"; };
+		A6FC13E61C5B59C400B92822 /* ColoredLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColoredLineChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13E71C5B59C400B92822 /* CombinedChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedChartViewController.h; sourceTree = "<group>"; };
+		A6FC13E81C5B59C400B92822 /* CombinedChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinedChartViewController.m; sourceTree = "<group>"; };
+		A6FC13E91C5B59C400B92822 /* CombinedChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombinedChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13EA1C5B59C400B92822 /* CubicLineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicLineChartViewController.h; sourceTree = "<group>"; };
+		A6FC13EB1C5B59C400B92822 /* CubicLineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicLineChartViewController.m; sourceTree = "<group>"; };
+		A6FC13EC1C5B59C400B92822 /* CubicLineChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubicLineChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13ED1C5B59C400B92822 /* HorizontalBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC13EE1C5B59C400B92822 /* HorizontalBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC13EF1C5B59C400B92822 /* HorizontalBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalBarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13F01C5B59C400B92822 /* LineChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart1ViewController.h; sourceTree = "<group>"; };
+		A6FC13F11C5B59C400B92822 /* LineChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart1ViewController.m; sourceTree = "<group>"; };
+		A6FC13F21C5B59C400B92822 /* LineChart1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart1ViewController.xib; sourceTree = "<group>"; };
+		A6FC13F31C5B59C400B92822 /* LineChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart2ViewController.h; sourceTree = "<group>"; };
+		A6FC13F41C5B59C400B92822 /* LineChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart2ViewController.m; sourceTree = "<group>"; };
+		A6FC13F51C5B59C400B92822 /* LineChart2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineChart2ViewController.xib; sourceTree = "<group>"; };
+		A6FC13F61C5B59C400B92822 /* MultipleBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC13F71C5B59C400B92822 /* MultipleBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC13F81C5B59C400B92822 /* MultipleBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleBarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13F91C5B59C400B92822 /* MultipleLinesChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleLinesChartViewController.h; sourceTree = "<group>"; };
+		A6FC13FA1C5B59C400B92822 /* MultipleLinesChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleLinesChartViewController.m; sourceTree = "<group>"; };
+		A6FC13FB1C5B59C400B92822 /* MultipleLinesChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleLinesChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13FC1C5B59C400B92822 /* NegativeStackedBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NegativeStackedBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC13FD1C5B59C400B92822 /* NegativeStackedBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NegativeStackedBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC13FE1C5B59C400B92822 /* NegativeStackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NegativeStackedBarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC13FF1C5B59C400B92822 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		A6FC14001C5B59C400B92822 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
+		A6FC14011C5B59C400B92822 /* PieChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartViewController.xib; sourceTree = "<group>"; };
+		A6FC14021C5B59C400B92822 /* RadarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarChartViewController.h; sourceTree = "<group>"; };
+		A6FC14031C5B59C400B92822 /* RadarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarChartViewController.m; sourceTree = "<group>"; };
+		A6FC14041C5B59C400B92822 /* RadarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC14051C5B59C400B92822 /* ScatterChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScatterChartViewController.h; sourceTree = "<group>"; };
+		A6FC14061C5B59C400B92822 /* ScatterChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScatterChartViewController.m; sourceTree = "<group>"; };
+		A6FC14071C5B59C400B92822 /* ScatterChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScatterChartViewController.xib; sourceTree = "<group>"; };
+		A6FC14081C5B59C400B92822 /* SinusBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinusBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC14091C5B59C400B92822 /* SinusBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinusBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC140A1C5B59C400B92822 /* SinusBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinusBarChartViewController.xib; sourceTree = "<group>"; };
+		A6FC140B1C5B59C400B92822 /* StackedBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackedBarChartViewController.h; sourceTree = "<group>"; };
+		A6FC140C1C5B59C400B92822 /* StackedBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackedBarChartViewController.m; sourceTree = "<group>"; };
+		A6FC140D1C5B59C400B92822 /* StackedBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackedBarChartViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FC13831C5B580400B92822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC143A1C5B5A6E00B92822 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC139C1C5B580400B92822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC13A71C5B580400B92822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6FC137D1C5B580400B92822 = {
+			isa = PBXGroup;
+			children = (
+				A6FC13C01C5B597600B92822 /* Charts.xcodeproj */,
+				A6FC13881C5B580400B92822 /* ImportChartDemo */,
+				A6FC13A21C5B580400B92822 /* ImportChartDemoTests */,
+				A6FC13AD1C5B580400B92822 /* ImportChartDemoUITests */,
+				A6FC13871C5B580400B92822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6FC13871C5B580400B92822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13861C5B580400B92822 /* ImportChartDemo.app */,
+				A6FC139F1C5B580400B92822 /* ImportChartDemoTests.xctest */,
+				A6FC13AA1C5B580400B92822 /* ImportChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FC13881C5B580400B92822 /* ImportChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13CC1C5B59C400B92822 /* AppDelegate.h */,
+				A6FC13CD1C5B59C400B92822 /* AppDelegate.m */,
+				A6FC13CE1C5B59C400B92822 /* Components */,
+				A6FC13D21C5B59C400B92822 /* DemoBaseViewController.h */,
+				A6FC13D31C5B59C400B92822 /* DemoBaseViewController.m */,
+				A6FC13D41C5B59C400B92822 /* DemoListViewController.h */,
+				A6FC13D51C5B59C400B92822 /* DemoListViewController.m */,
+				A6FC13D61C5B59C400B92822 /* DemoListViewController.xib */,
+				A6FC13D71C5B59C400B92822 /* Demos */,
+				A6FC138F1C5B580400B92822 /* ViewController.h */,
+				A6FC13901C5B580400B92822 /* ViewController.m */,
+				A6FC13921C5B580400B92822 /* Main.storyboard */,
+				A6FC13951C5B580400B92822 /* Assets.xcassets */,
+				A6FC13971C5B580400B92822 /* LaunchScreen.storyboard */,
+				A6FC139A1C5B580400B92822 /* Info.plist */,
+				A6FC13891C5B580400B92822 /* Supporting Files */,
+				A6FC13BE1C5B585200B92822 /* test.swift */,
+				A6FC13BD1C5B585100B92822 /* ImportChartDemo-Bridging-Header.h */,
+			);
+			path = ImportChartDemo;
+			sourceTree = "<group>";
+		};
+		A6FC13891C5B580400B92822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC138A1C5B580400B92822 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6FC13A21C5B580400B92822 /* ImportChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13A31C5B580400B92822 /* ImportChartDemoTests.m */,
+				A6FC13A51C5B580400B92822 /* Info.plist */,
+			);
+			path = ImportChartDemoTests;
+			sourceTree = "<group>";
+		};
+		A6FC13AD1C5B580400B92822 /* ImportChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13AE1C5B580400B92822 /* ImportChartDemoUITests.m */,
+				A6FC13B01C5B580400B92822 /* Info.plist */,
+			);
+			path = ImportChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		A6FC13C11C5B597600B92822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13C71C5B597600B92822 /* Charts.framework */,
+				A6FC13C91C5B597600B92822 /* Charts.framework */,
+				A6FC13CB1C5B597600B92822 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FC13CE1C5B59C400B92822 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13CF1C5B59C400B92822 /* BalloonMarker.swift */,
+				A6FC13D01C5B59C400B92822 /* MyCustomXValueFormatter.h */,
+				A6FC13D11C5B59C400B92822 /* MyCustomXValueFormatter.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A6FC13D71C5B59C400B92822 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC13D81C5B59C400B92822 /* AnotherBarChartViewController.h */,
+				A6FC13D91C5B59C400B92822 /* AnotherBarChartViewController.m */,
+				A6FC13DA1C5B59C400B92822 /* AnotherBarChartViewController.xib */,
+				A6FC13DB1C5B59C400B92822 /* BarChartViewController.h */,
+				A6FC13DC1C5B59C400B92822 /* BarChartViewController.m */,
+				A6FC13DD1C5B59C400B92822 /* BarChartViewController.xib */,
+				A6FC13DE1C5B59C400B92822 /* BubbleChartViewController.h */,
+				A6FC13DF1C5B59C400B92822 /* BubbleChartViewController.m */,
+				A6FC13E01C5B59C400B92822 /* BubbleChartViewController.xib */,
+				A6FC13E11C5B59C400B92822 /* CandleStickChartViewController.h */,
+				A6FC13E21C5B59C400B92822 /* CandleStickChartViewController.m */,
+				A6FC13E31C5B59C400B92822 /* CandleStickChartViewController.xib */,
+				A6FC13E41C5B59C400B92822 /* ColoredLineChartViewController.h */,
+				A6FC13E51C5B59C400B92822 /* ColoredLineChartViewController.m */,
+				A6FC13E61C5B59C400B92822 /* ColoredLineChartViewController.xib */,
+				A6FC13E71C5B59C400B92822 /* CombinedChartViewController.h */,
+				A6FC13E81C5B59C400B92822 /* CombinedChartViewController.m */,
+				A6FC13E91C5B59C400B92822 /* CombinedChartViewController.xib */,
+				A6FC13EA1C5B59C400B92822 /* CubicLineChartViewController.h */,
+				A6FC13EB1C5B59C400B92822 /* CubicLineChartViewController.m */,
+				A6FC13EC1C5B59C400B92822 /* CubicLineChartViewController.xib */,
+				A6FC13ED1C5B59C400B92822 /* HorizontalBarChartViewController.h */,
+				A6FC13EE1C5B59C400B92822 /* HorizontalBarChartViewController.m */,
+				A6FC13EF1C5B59C400B92822 /* HorizontalBarChartViewController.xib */,
+				A6FC13F01C5B59C400B92822 /* LineChart1ViewController.h */,
+				A6FC13F11C5B59C400B92822 /* LineChart1ViewController.m */,
+				A6FC13F21C5B59C400B92822 /* LineChart1ViewController.xib */,
+				A6FC13F31C5B59C400B92822 /* LineChart2ViewController.h */,
+				A6FC13F41C5B59C400B92822 /* LineChart2ViewController.m */,
+				A6FC13F51C5B59C400B92822 /* LineChart2ViewController.xib */,
+				A6FC13F61C5B59C400B92822 /* MultipleBarChartViewController.h */,
+				A6FC13F71C5B59C400B92822 /* MultipleBarChartViewController.m */,
+				A6FC13F81C5B59C400B92822 /* MultipleBarChartViewController.xib */,
+				A6FC13F91C5B59C400B92822 /* MultipleLinesChartViewController.h */,
+				A6FC13FA1C5B59C400B92822 /* MultipleLinesChartViewController.m */,
+				A6FC13FB1C5B59C400B92822 /* MultipleLinesChartViewController.xib */,
+				A6FC13FC1C5B59C400B92822 /* NegativeStackedBarChartViewController.h */,
+				A6FC13FD1C5B59C400B92822 /* NegativeStackedBarChartViewController.m */,
+				A6FC13FE1C5B59C400B92822 /* NegativeStackedBarChartViewController.xib */,
+				A6FC13FF1C5B59C400B92822 /* PieChartViewController.h */,
+				A6FC14001C5B59C400B92822 /* PieChartViewController.m */,
+				A6FC14011C5B59C400B92822 /* PieChartViewController.xib */,
+				A6FC14021C5B59C400B92822 /* RadarChartViewController.h */,
+				A6FC14031C5B59C400B92822 /* RadarChartViewController.m */,
+				A6FC14041C5B59C400B92822 /* RadarChartViewController.xib */,
+				A6FC14051C5B59C400B92822 /* ScatterChartViewController.h */,
+				A6FC14061C5B59C400B92822 /* ScatterChartViewController.m */,
+				A6FC14071C5B59C400B92822 /* ScatterChartViewController.xib */,
+				A6FC14081C5B59C400B92822 /* SinusBarChartViewController.h */,
+				A6FC14091C5B59C400B92822 /* SinusBarChartViewController.m */,
+				A6FC140A1C5B59C400B92822 /* SinusBarChartViewController.xib */,
+				A6FC140B1C5B59C400B92822 /* StackedBarChartViewController.h */,
+				A6FC140C1C5B59C400B92822 /* StackedBarChartViewController.m */,
+				A6FC140D1C5B59C400B92822 /* StackedBarChartViewController.xib */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6FC13851C5B580400B92822 /* ImportChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FC13B31C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemo" */;
+			buildPhases = (
+				A6FC13821C5B580400B92822 /* Sources */,
+				A6FC13831C5B580400B92822 /* Frameworks */,
+				A6FC13841C5B580400B92822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FC14391C5B5A6500B92822 /* PBXTargetDependency */,
+			);
+			name = ImportChartDemo;
+			productName = ImportChartDemo;
+			productReference = A6FC13861C5B580400B92822 /* ImportChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FC139E1C5B580400B92822 /* ImportChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FC13B61C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemoTests" */;
+			buildPhases = (
+				A6FC139B1C5B580400B92822 /* Sources */,
+				A6FC139C1C5B580400B92822 /* Frameworks */,
+				A6FC139D1C5B580400B92822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FC13A11C5B580400B92822 /* PBXTargetDependency */,
+			);
+			name = ImportChartDemoTests;
+			productName = ImportChartDemoTests;
+			productReference = A6FC139F1C5B580400B92822 /* ImportChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6FC13A91C5B580400B92822 /* ImportChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FC13B91C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemoUITests" */;
+			buildPhases = (
+				A6FC13A61C5B580400B92822 /* Sources */,
+				A6FC13A71C5B580400B92822 /* Frameworks */,
+				A6FC13A81C5B580400B92822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FC13AC1C5B580400B92822 /* PBXTargetDependency */,
+			);
+			name = ImportChartDemoUITests;
+			productName = ImportChartDemoUITests;
+			productReference = A6FC13AA1C5B580400B92822 /* ImportChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FC137E1C5B580400B92822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A6FC13851C5B580400B92822 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A6FC139E1C5B580400B92822 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A6FC13851C5B580400B92822;
+					};
+					A6FC13A91C5B580400B92822 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A6FC13851C5B580400B92822;
+					};
+				};
+			};
+			buildConfigurationList = A6FC13811C5B580400B92822 /* Build configuration list for PBXProject "ImportChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6FC137D1C5B580400B92822;
+			productRefGroup = A6FC13871C5B580400B92822 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A6FC13C11C5B597600B92822 /* Products */;
+					ProjectRef = A6FC13C01C5B597600B92822 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A6FC13851C5B580400B92822 /* ImportChartDemo */,
+				A6FC139E1C5B580400B92822 /* ImportChartDemoTests */,
+				A6FC13A91C5B580400B92822 /* ImportChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A6FC13C71C5B597600B92822 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A6FC13C61C5B597600B92822 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A6FC13C91C5B597600B92822 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = A6FC13C81C5B597600B92822 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A6FC13CB1C5B597600B92822 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = A6FC13CA1C5B597600B92822 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FC13841C5B580400B92822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC141F1C5B59C400B92822 /* CombinedChartViewController.xib in Resources */,
+				A6FC14251C5B59C400B92822 /* LineChart1ViewController.xib in Resources */,
+				A6FC14231C5B59C400B92822 /* HorizontalBarChartViewController.xib in Resources */,
+				A6FC14191C5B59C400B92822 /* BubbleChartViewController.xib in Resources */,
+				A6FC13991C5B580400B92822 /* LaunchScreen.storyboard in Resources */,
+				A6FC13961C5B580400B92822 /* Assets.xcassets in Resources */,
+				A6FC13941C5B580400B92822 /* Main.storyboard in Resources */,
+				A6FC14171C5B59C400B92822 /* BarChartViewController.xib in Resources */,
+				A6FC14311C5B59C400B92822 /* RadarChartViewController.xib in Resources */,
+				A6FC142D1C5B59C400B92822 /* NegativeStackedBarChartViewController.xib in Resources */,
+				A6FC141D1C5B59C400B92822 /* ColoredLineChartViewController.xib in Resources */,
+				A6FC14371C5B59C400B92822 /* StackedBarChartViewController.xib in Resources */,
+				A6FC14291C5B59C400B92822 /* MultipleBarChartViewController.xib in Resources */,
+				A6FC141B1C5B59C400B92822 /* CandleStickChartViewController.xib in Resources */,
+				A6FC14271C5B59C400B92822 /* LineChart2ViewController.xib in Resources */,
+				A6FC14331C5B59C400B92822 /* ScatterChartViewController.xib in Resources */,
+				A6FC14131C5B59C400B92822 /* DemoListViewController.xib in Resources */,
+				A6FC142F1C5B59C400B92822 /* PieChartViewController.xib in Resources */,
+				A6FC142B1C5B59C400B92822 /* MultipleLinesChartViewController.xib in Resources */,
+				A6FC14151C5B59C400B92822 /* AnotherBarChartViewController.xib in Resources */,
+				A6FC14211C5B59C400B92822 /* CubicLineChartViewController.xib in Resources */,
+				A6FC14351C5B59C400B92822 /* SinusBarChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC139D1C5B580400B92822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC13A81C5B580400B92822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FC13821C5B580400B92822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC142E1C5B59C400B92822 /* PieChartViewController.m in Sources */,
+				A6FC140E1C5B59C400B92822 /* AppDelegate.m in Sources */,
+				A6FC14221C5B59C400B92822 /* HorizontalBarChartViewController.m in Sources */,
+				A6FC14281C5B59C400B92822 /* MultipleBarChartViewController.m in Sources */,
+				A6FC13911C5B580400B92822 /* ViewController.m in Sources */,
+				A6FC14341C5B59C400B92822 /* SinusBarChartViewController.m in Sources */,
+				A6FC14241C5B59C400B92822 /* LineChart1ViewController.m in Sources */,
+				A6FC141A1C5B59C400B92822 /* CandleStickChartViewController.m in Sources */,
+				A6FC13BF1C5B585200B92822 /* test.swift in Sources */,
+				A6FC141E1C5B59C400B92822 /* CombinedChartViewController.m in Sources */,
+				A6FC141C1C5B59C400B92822 /* ColoredLineChartViewController.m in Sources */,
+				A6FC14141C5B59C400B92822 /* AnotherBarChartViewController.m in Sources */,
+				A6FC14121C5B59C400B92822 /* DemoListViewController.m in Sources */,
+				A6FC14261C5B59C400B92822 /* LineChart2ViewController.m in Sources */,
+				A6FC14201C5B59C400B92822 /* CubicLineChartViewController.m in Sources */,
+				A6FC14321C5B59C400B92822 /* ScatterChartViewController.m in Sources */,
+				A6FC142A1C5B59C400B92822 /* MultipleLinesChartViewController.m in Sources */,
+				A6FC142C1C5B59C400B92822 /* NegativeStackedBarChartViewController.m in Sources */,
+				A6FC14161C5B59C400B92822 /* BarChartViewController.m in Sources */,
+				A6FC14301C5B59C400B92822 /* RadarChartViewController.m in Sources */,
+				A6FC138B1C5B580400B92822 /* main.m in Sources */,
+				A6FC14361C5B59C400B92822 /* StackedBarChartViewController.m in Sources */,
+				A6FC14111C5B59C400B92822 /* DemoBaseViewController.m in Sources */,
+				A6FC14101C5B59C400B92822 /* MyCustomXValueFormatter.m in Sources */,
+				A6FC14181C5B59C400B92822 /* BubbleChartViewController.m in Sources */,
+				A6FC140F1C5B59C400B92822 /* BalloonMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC139B1C5B580400B92822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC13A41C5B580400B92822 /* ImportChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FC13A61C5B580400B92822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC13AF1C5B580400B92822 /* ImportChartDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6FC13A11C5B580400B92822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FC13851C5B580400B92822 /* ImportChartDemo */;
+			targetProxy = A6FC13A01C5B580400B92822 /* PBXContainerItemProxy */;
+		};
+		A6FC13AC1C5B580400B92822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FC13851C5B580400B92822 /* ImportChartDemo */;
+			targetProxy = A6FC13AB1C5B580400B92822 /* PBXContainerItemProxy */;
+		};
+		A6FC14391C5B5A6500B92822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = A6FC14381C5B5A6500B92822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FC13921C5B580400B92822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FC13931C5B580400B92822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FC13971C5B580400B92822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FC13981C5B580400B92822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6FC13B11C5B580400B92822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = ImportChartDemo;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6FC13B21C5B580400B92822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = ImportChartDemo;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6FC13B41C5B580400B92822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ImportChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemo;
+				PRODUCT_MODULE_NAME = ImportChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImportChartDemo/ImportChartDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6FC13B51C5B580400B92822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = ImportChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemo;
+				PRODUCT_MODULE_NAME = ImportChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImportChartDemo/ImportChartDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A6FC13B71C5B580400B92822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImportChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImportChartDemo.app/ImportChartDemo";
+			};
+			name = Debug;
+		};
+		A6FC13B81C5B580400B92822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImportChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImportChartDemo.app/ImportChartDemo";
+			};
+			name = Release;
+		};
+		A6FC13BA1C5B580400B92822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImportChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImportChartDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6FC13BB1C5B580400B92822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ImportChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.ImportChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ImportChartDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6FC13811C5B580400B92822 /* Build configuration list for PBXProject "ImportChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FC13B11C5B580400B92822 /* Debug */,
+				A6FC13B21C5B580400B92822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FC13B31C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FC13B41C5B580400B92822 /* Debug */,
+				A6FC13B51C5B580400B92822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FC13B61C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FC13B71C5B580400B92822 /* Debug */,
+				A6FC13B81C5B580400B92822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FC13B91C5B580400B92822 /* Build configuration list for PBXNativeTarget "ImportChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FC13BA1C5B580400B92822 /* Debug */,
+				A6FC13BB1C5B580400B92822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6FC137E1C5B580400B92822 /* Project object */;
+}
